@@ -62,10 +62,10 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'mysql.igorpimentel.com',
-		'login' => 'igorps',
-		'password' => 'aa1616zz',
-		'database' => 'igorpimentel',
+		'host' => 'localhost',
+		'login' => 'root',
+		'password' => '',
+		'database' => 'assandosites',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
