@@ -1,3 +1,3 @@
-<h1>Curso - Assando Sites!</h1>
+<h2>WTISC</h2>
 
-<h2><?php echo "Exercício 1"; ?></h2>
+<p>Workshop de Tecnologia da Informação do Sertão Central </p>

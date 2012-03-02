@@ -1,0 +1,208 @@
+/*
+Autor: Igor Pimentel - www.igorpimentel.com
+*/
+@import "reset_reloaded.css";
+
+body {
+    font-size:14px;
+    font-family: "Trebuchet MS", Arial, Helvetica, Verdana, sans-serif;
+    color:#000;
+    background: #FFFFFF url(../img/bg.jpg) repeat-x;    
+}
+
+.centertext {
+    text-align:center;
+}
+
+.nodisplay {
+    display:none;
+}
+
+input.dtext {
+    border:1px solid #003366;
+    padding:2px;
+}
+
+#wrap {
+    width:900px;
+    margin:0 auto;
+    border-left:1px solid #003366;
+    border-right:1px solid #003366;
+    background-color: #FFFFFF;
+}
+
+#header {
+    width:900px;
+    height:200px;
+    background: #FFFFFF url(../img/topo.jpg) no-repeat;
+}
+
+#header h1 {
+    float:right;
+    margin:40px 40px 0 0;
+    width:340px;
+    height:120px;
+    background: #FFFFFF url(../img/logo.jpg) no-repeat; 
+}
+
+#header h1 a {
+    display:block;
+    width:340px;
+    height:120px;
+    text-indent:-8000px;
+}
+
+#menu {
+    width:900px;
+    height:40px;
+    background-color:#006699;
+    border-top:1px solid #003366;
+    border-bottom:2px solid #003366; 
+}
+
+#menu ul {
+    margin: 4px 0 0 110px;
+}
+
+#menu ul li {
+    display:inline;
+}
+
+#menu ul li a {
+    float:left;
+    padding:6px 10px;
+    font-size:20px;
+    font-weight:bold;
+    color:#FFF;
+    text-decoration:none;
+    border-right:1px solid #FFF;
+}
+
+#menu ul li a.noborder {
+    border:0;
+}
+
+#menu ul li a:hover {
+    background-color:#3385AD;
+}
+
+#content {
+    display:table;
+    width:900px;
+    margin:10px auto;    
+}
+
+#content #maincontent {
+    float:left;
+    width:558px;
+    padding:20px 20px 30px 20px;
+    border-right:2px dotted #003366;    
+}
+
+#content h2 {
+    margin-bottom:20px;
+    padding-bottom:5px;
+    font-size:26px;
+    font-weight:bold;   
+    color:#003366;
+    border-bottom:2px solid #003366;
+}
+
+#content #maincontent #patrocinadores {
+    width:200px;
+    margin:0 auto;
+}
+
+#content #maincontent #patrocinadores img {
+    display:block;
+}
+
+#content #maincontent p {
+    margin-bottom:10px;
+    text-align:justify;
+}
+
+#content #maincontent fieldset label {    
+    display:block;
+    margin-top:15px;
+    cursor:pointer;    
+}
+
+#content #maincontent fieldset label.inline {
+    display:inline;
+}
+
+#content #maincontent fieldset input.but {
+    display:block;
+    margin-top:15px;
+    padding:5px;
+    font-weight:bold;
+    color:#FFF;    
+    background-color: #003366;
+}
+
+#content #programacao {
+    padding:20px;
+}
+
+#content h3 {
+    font-size:22px;
+    font-weight:bold;
+    color: #003399;
+}
+
+#content #programacao table {
+    width:100%;   
+    border:1px solid #003366; 
+}
+
+#content #programacao table caption {      
+    margin:20px auto 8px;
+    font-size:16px;
+    font-weight:bold;
+    color: #003399;
+    text-align:left;
+}
+
+#content #programacao table tbody tr.linecolor {
+    background-color: #EBEBEB;
+}
+
+#content #programacao table tr th {
+    padding:8px;
+    font-weight:bold;
+    font-size:16px;    
+    color:#FFF;
+    background-color: #003399;
+}
+
+#content #programacao table tr td {
+    padding:5px;
+    /*text-align:center;*/
+}
+
+#content #rightcolumn {
+    float:right;
+    width:282px;
+    padding:9px;
+}
+
+#content #rightcolumn img {
+    margin-bottom:9px;
+}
+
+#footer {
+    clear:both;;
+    padding:10px 0;
+    color:#FFF;
+    text-align:center;
+    background-color:#003366;
+}
+
+#footer a {
+	display: block;
+	margin-top: 15px;
+    color: #FFF;
+}
+
+a.highlight { text-transform: uppercase; }

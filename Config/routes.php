@@ -29,7 +29,12 @@
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
-	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+ 	//Ocutei a rota padrão para páginas estáticas para não ter DOIS links para o mesmo conteúdo (conteúdo duplicado... o sr. Google não gosta disso!)
+	//Router::connect('/paginas/*', array('controller' => 'pages', 'action' => 'display'));
+	Router::connect('/o-evento', array('controller' => 'pages', 'action' => 'display', 'o-evento'));
+	//Router::connect('/o-evento', array('controller' => 'pages', 'action' => 'display', 'home'));	//Teste do EX. 2 e. (bônus)
+	Router::connect('/o-evento/local', array('controller' => 'pages', 'action' => 'display', 'local'));
+	Router::connect('/creditos', array('controller' => 'pages', 'action' => 'display', 'creditos'));
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 
