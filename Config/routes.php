@@ -35,6 +35,9 @@
 	//Router::connect('/o-evento', array('controller' => 'pages', 'action' => 'display', 'home'));	//Teste do EX. 2 e. (bônus) - Só é válido a primeira declaração quando usado o mesmo formato.
 	Router::connect('/o-evento/local', array('controller' => 'pages', 'action' => 'display', 'local'));
 	Router::connect('/creditos', array('controller' => 'pages', 'action' => 'display', 'creditos'));
+	
+	Router::connect('/inscricoes', array('controller' => 'inscricoes', 'action' => 'inscrever'));
+	Router::connect('/inscricoes/obrigado', array('controller' => 'pages', 'action' => 'display', 'inscricoes_obrigado'));
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 

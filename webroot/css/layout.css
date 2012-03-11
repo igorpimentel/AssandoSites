@@ -206,3 +206,7 @@ input.dtext {
 }
 
 a.highlight { text-transform: uppercase; }
+
+form .input.text label { display: block; font-weight: bold; cursor: pointer; }
+form .input.text input { margin-bottom: 10px; padding: 5px; border: 1px solid #CCC; width: 98%; }
+form input.submit { padding: 10px; color: #FFF; border: none; background: #003366; }

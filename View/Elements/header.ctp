@@ -15,6 +15,7 @@
             <ul>
                 <li><?php echo $this->Html->link('o evento', '/o-evento'); ?></li>
                 <li><?php echo $this->Html->link('local', '/o-evento/local'); ?></li>
+                <li><?php echo $this->Html->link('inscrições', array('controller' => 'inscricoes', 'action' => 'inscrever')); ?></li>
             </ul>
         </div>
         <div id="content">
